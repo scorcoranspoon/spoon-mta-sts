@@ -1,0 +1,13 @@
+{
+  "mimeTypes": {
+    ".txt": "text/plain"
+  },
+  "routes": [
+    {
+      "route": "/.well-known/mta-sts.txt",
+      "headers": {
+        "Cache-Control": "public, max-age=300"
+      }
+    }
+  ]
+}
